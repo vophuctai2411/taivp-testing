@@ -1,0 +1,10 @@
+.button-background {
+  background: #5669ff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 30px;
+  width: fit-content;
+  block-size: fit-content;
+  color: white;
+  align-self: center;
+}

@@ -1,0 +1,27 @@
+.welcome-background {
+  margin-right: -7%;
+  overflow: hidden;
+}
+
+.welcome_left {
+  align-self: center;
+  padding: 100px;
+}
+
+.welcome_sentence {
+  width: 591px;
+  height: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: #4a4545;
+}
+
+.phoneImg {
+  display: flex;
+  justify-content: right;
+}

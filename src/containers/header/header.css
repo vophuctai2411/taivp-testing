@@ -1,0 +1,21 @@
+.header-background {
+  background: #ffffff;
+  box-shadow: 0px 21px 80px rgba(122, 117, 117, 0.05),
+    0px 2.62953px 10.0172px rgba(122, 117, 117, 0.025);
+  padding: 10px 100px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.header-left {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  flex: 0.5;
+}
+
+.listNavigation {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,10 @@
+.download_section {
+  display: flex;
+}
+
+.downloadText {
+  border-left-color: #5669ff;
+  color: #5669ff;
+  border-left-style: solid;
+  padding-left: 20px;
+}
