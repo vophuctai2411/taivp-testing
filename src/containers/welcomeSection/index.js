@@ -31,7 +31,7 @@ function WelcomeSection() {
         />
       </Col>
       <Col span={12} className="phoneImg">
-        <img src={Phone} width="800" height="800" />
+        <img src={Phone} />
       </Col>
     </Row>
   );
