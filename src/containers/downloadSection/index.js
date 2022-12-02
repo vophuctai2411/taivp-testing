@@ -14,13 +14,15 @@ function DownloadSection() {
 
         <div style={{ alignSelf: "center" }}>
           <p className="downloadText">Download now</p>
-          <p>
+          <p style={{ width: 540 }}>
             Aplikasi Bantu warga merupakan aplikasi berbasis mobile dengan
             konsep kesehatan yang berkaitan dengan keadaan covid sekarang
           </p>
+          <div>
+            <img src={GooglePlay} style={{ marginRight: 20 }} />
+            <img src={AppStore} />
+          </div>
         </div>
-        <img src={GooglePlay} />
-        <img src={AppStore} />
       </div>
     </>
   );
