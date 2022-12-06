@@ -6,17 +6,21 @@ import { Col, Row } from "antd";
 import GooglePlay from "../../asssets/GooglePlay.png";
 import AppStore from "../../asssets/AppStore.png";
 
-function DownloadSection() {
+function DownloadSection({ downloadSection }) {
   return (
     <>
       <div className="download_section">
         <img src={DownloadPeople} />
 
         <div style={{ alignSelf: "center" }}>
-          <p className="downloadText">Download now</p>
+          <p className="downloadText">
+            {/* Download now */}
+            {downloadSection?.title}
+          </p>
           <p style={{ width: 540 }}>
-            Aplikasi Bantu warga merupakan aplikasi berbasis mobile dengan
-            konsep kesehatan yang berkaitan dengan keadaan covid sekarang
+            {downloadSection?.description}
+            {/* Aplikasi Bantu warga merupakan aplikasi berbasis mobile dengan
+            konsep kesehatan yang berkaitan dengan keadaan covid sekarang */}
           </p>
           <div>
             <img src={GooglePlay} style={{ marginRight: 20 }} />

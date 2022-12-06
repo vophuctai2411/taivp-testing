@@ -9,8 +9,8 @@ function CustomizedCard({ item }) {
       cover={
         <div className="cardbackground">
           <img alt="example" src={item.imgURL} className="imgCard" />
-          <h3>{item.name}</h3>
-          <p>{item.text}</p>
+          <h3>{item?.title}</h3>
+          <p>{item?.description}</p>
         </div>
       }
     ></Card>
